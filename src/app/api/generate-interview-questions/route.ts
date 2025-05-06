@@ -14,9 +14,9 @@ export async function POST(req: Request, res: Response) {
 
   const openai = new OpenAI({
     apiKey: process.env.OPENAI_API_KEY,
-    baseURL: process.env.CUSTOM_OPENAI_BASE_URL,
+    baseURL: process.env.NEXT_PUBLIC_CUSTOM_OPENAI_BASE_URL,
     maxRetries: 5,
-    dangerouslyAllowBrowser: true,
+    // dangerouslyAllowBrowser: true,
   });
 
   try {
