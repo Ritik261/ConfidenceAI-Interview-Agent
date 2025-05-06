@@ -3,6 +3,10 @@
 
 ConfidenceAI is an open source platform for companies to conduct AI powered hiring interviews with their candidates.
 
+Team: 
+
+1. Ritik Singh
+
 ## Key Features
 
 - **🎯 Interview Creation:** Instantly generate tailored interview questions from any job description.
